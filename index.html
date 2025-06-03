@@ -5,15 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brown Mobile Welding</title>
     <style>
-        body {font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f2f2f2;}
-        header {background-color: #333; color: white; padding: 20px 0; text-align: center;}
-        nav a {color: white; margin: 0 15px; text-decoration: none; font-weight: bold;}
-        section {padding: 50px; max-width: 1000px; margin: auto; background: white; margin-top: 20px;}
-        footer {background-color: #333; color: white; text-align: center; padding: 20px 0; margin-top: 20px;}
-        .button {background-color: #e67e22; color: white; padding: 15px 30px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; text-decoration: none;}
-        .logo {width: 300px; display: block; margin: 20px auto;}
-        .gallery {display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;}
-        .gallery img {width: 300px; height: auto; border: 1px solid #ccc; padding: 5px; background: #fff;}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('Background1.avif') no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+            max-width: 1000px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+            position: relative;
+        }
+        .button {
+            background-color: #e67e22;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .logo {
+            width: 150px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .logo-bottom {
+            width: 150px;
+            display: block;
+            margin: 10px auto 0 auto;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border: 1px solid #ccc;
+            padding: 5px;
+            background: #fff;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -46,10 +108,9 @@
     <section id="gallery">
         <h2>Project Gallery</h2>
         <div class="gallery">
-            <img src="weld1.jpg" alt="Welding Project 1">
-            <img src="weld2.jpg" alt="Welding Project 2">
-            <img src="weld3.jpg" alt="Welding Project 3">
-            <img src="weld4.jpg" alt="Welding Project 4">
+            <img src="weld 1.png" alt="Welding Project 1">
+            <img src="Weld 2.png" alt="Welding Project 2">
+            <img src="Weld 3.png" alt="Welding Project 3">
         </div>
     </section>
 
@@ -68,6 +129,7 @@
     </section>
 
     <footer>
+        <img src="BMW1.png" alt="Brown Mobile Welding Logo Bottom" class="logo-bottom">
         &copy; 2025 Brown Mobile Welding. All Rights Reserved.
     </footer>
 </body>
